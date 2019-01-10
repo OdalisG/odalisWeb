@@ -15,15 +15,14 @@ p {
     float: right;
     font-family: 'Righteous', cursive;
 }
+h1 {
+    font-size: 1em;
+}
+
 h4 {
      color: white;
 }
-.index-grid {
-    background: #12c2e9;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-}
 .banner-text {
     color: white;
     font-family: 'Philosopher', sans-serif;
@@ -46,3 +45,10 @@ background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+
 .banner-text h2 {
     padding: 1em;
 }
+.social-links {
+  display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+   background-color: transparent;
+    font-size: 2em;
