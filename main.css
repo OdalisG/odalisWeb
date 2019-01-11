@@ -15,6 +15,10 @@ p {
     float: right;
     font-family: 'Righteous', cursive;
 }
+    li a {
+        display: block;
+    
+}
 h1 {
     font-size: 1em;
 }

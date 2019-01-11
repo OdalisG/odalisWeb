@@ -10,9 +10,9 @@
         <!--  
         <meta name="description" content="An interactive getting started guide for Brackets.">
 -->
-        <link rel="stylesheet" href="main.css"> 
-        <link rel="stylesheet" href="contact.html">
-         <link rel="stylesheet" href="contact-form.php">
+        <link rel="stylesheet" href="main.css" media="screen" type="text/css"> 
+        <link rel="stylesheet" href="contact.html" media="screen" type="text/css">
+         <link rel="stylesheet" href="contact-form.php" media="screen" type="text/css">
         <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
         <!--google fonts-->
@@ -21,13 +21,23 @@
            <!--font awesome cdn-->
          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
+    <!--automatic time and date-->
+    <script type="text/javascript">
+    document.write ('<p><span id="date-time">', new Date().toLocaleDateString(), '<\/span>.<\/p>')
+        if (document.getElementById) onload = function() {
+            setInterval ("document.getElementById ('date-time').firstChild.data = new Date().toLocaleString()", 50)
+        }
+    </script>
     <!--links-->
    
     <body>   
        <ul>  
-           <a href="contact.html" target="_blank"><p style="text-align: right">CONTACT</p></a>
-           <a href="/"><p style="text-align: right">PROJECTS</p></a>   
-       </ul>   
+
+           <li><a href="contact.html"><p style="text-align: right">CONTACT</p></a></li>
+
+           <li><a href="projects.html"><p style="text-align: right">PROJECTS</p></a></li>  
+
+       </ul>    
      <!--self name-->
         <h4 style ="text-align: left">ODALIS GARCIA</h4>
       <!--image-->

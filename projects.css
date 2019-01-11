@@ -1,0 +1,22 @@
+.link h1 {
+    text-align: center;
+}
+.link {
+    text-align: center;
+     color: white;
+    font-family: 'Philosopher', sans-serif;
+    opacity: .8;
+    width: 75%;
+    margin: auto;
+    border-radius: 10px;
+    background-color: black;
+    text-align: center;
+}
+body {
+    background-image: url('swimmer.jpg');
+    background-size: cover;
+}
+
+.home a {
+    color: white;
+}

@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <title>Contact Me</title>
     <script>
-  
+   
     </script>
     <!--links-->
-    <link rel="stylesheet" href="index.html">
-    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="index.html" media="screen" type="text/css">
+    <link rel="stylesheet" href="contact.css" media="screen" type="text/css">
     <link rel="stylesheet" href="contact-form.php">
      <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
@@ -32,15 +32,18 @@
     </div>
   <!--form-->
     <div class="contact-form">
-    <form id="contact-form" method="post" action="contact-form.php">
+    <form id="contact-form" method="post" action="index.html">
         <input name="name" type="text" class="form-control" placeholder="Your name" required>
         <br>
         <input name="email" type="email" class="form-control" placeholder="Your email" required>
         <br>
-        <textarea name="mewssage" class="form-control" placeholder="Message" row="4" required>
+        <textarea name="message" class="form-control" placeholder="Message" row="4" required>
         </textarea><br>
-        <input type="submit" class="form-control submit" value="Send Message">
+      
+        <input type="submit" class="form-control submit" class="btn btn-success btn-send" onclick="alert('empties, exit!')"  value="Send Message" >
+        
     </form>
+        
     </div>
     
  
